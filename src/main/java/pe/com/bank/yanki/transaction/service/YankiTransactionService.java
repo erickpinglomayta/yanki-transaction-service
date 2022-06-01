@@ -12,5 +12,6 @@ public interface YankiTransactionService {
 	public Mono<YankiTransacionDocument> saveYankiTransaction(YankiTransacionDocument yankiTransacionDocument);
 	public Mono<YankiTransacionDocument> updateYankiTransactionById(YankiTransacionDocument yankiTransacionDocument,String YankiTransacionId);
 	public Mono<Void> deleteYankiTransactionById(String YankiTransacionId);
+	
 
 }
